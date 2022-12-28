@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/opticswebsite/static/css/main.d9549e7c.css",
+    "main.js": "/opticswebsite/static/js/main.847a534e.js",
+    "static/media/bigglass.jpg": "/opticswebsite/static/media/bigglass.d75fd1a60d7874314096.jpg",
+    "static/media/bgimgnew.png": "/opticswebsite/static/media/bgimgnew.dad0af820b4c05432232.png",
+    "static/media/opticlogo.png": "/opticswebsite/static/media/opticlogo.15c5bc1219356826c42d.png",
+    "index.html": "/opticswebsite/index.html",
+    "main.d9549e7c.css.map": "/opticswebsite/static/css/main.d9549e7c.css.map",
+    "main.847a534e.js.map": "/opticswebsite/static/js/main.847a534e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9549e7c.css",
+    "static/js/main.847a534e.js"
+  ]
+}
