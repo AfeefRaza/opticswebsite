@@ -1,0 +1,17 @@
+.Alert{
+    z-index: 101;
+    position: sticky;
+    width: 35vw;
+    height: 5vh;
+    background-color: rgb(126, 255, 126);
+    border-radius: 50rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Play', sans-serif;
+    font-size: 1.5rem;
+    z-index: 20;
+    opacity: 0.7;
+
+}

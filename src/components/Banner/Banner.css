@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;700&display=swap');
+
+.Banner{
+    width: 100vw;
+    height: 60vh;
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    background-image: url("../bigglass.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.Banner h1{
+
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
+    font-size: 3vw;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+.Banner h2{
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+@media screen and (min-height: 1079px) and (min-aspect-ratio: 16/9) {
+    .Banner{
+        background-size: 100vw 55vh;}
+}
+@media (max-width:800px)  {
+    .Banner{
+        width: 100vw;
+        height: 20vh;
+        background-size: 100vw 20vh;
+    }
+    .Banner h1{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .Banner h2{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+.product{
+    color: var(--clr1);
+    width: 40vw;
+
+}
+
+.product img{
+    width: 40vw;
+    height: 25vw;
+}
+.product p{
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    margin-top: 0.6rem;
+}
+.product h2{
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 0;
+    width: 7;
+}
+.heading{
+    
+    height: 1vh;
+    width: 100%;
+    margin-top: 1vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.heading p{
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    width: 7;
+   
+}
+.shopbtn{
+    background-color: var(--clr1);
+    color: var(--clr2);
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.paraspan{
+    display: flex;
+    justify-content: space-between;
+}
+.paraspan .shopbtn{
+    display: none;
+}
+
+@media screen and (min-height: 650px) and (min-aspect-ratio: 16/9) {
+
+    .heading {
+        height: 4vh;
+    }
+    .product img{
+        width: 40vw;
+        height: 18vw;
+    }
+    .product h2{
+        font-size: 1.5rem;
+    }
+    .product p{
+        font-size: 1rem;
+    }
+    .heading p{
+        font-size: 1.5rem;
+       
+    }
+    .shopbtn{
+        margin-top: 0vh;
+        height: 5vh;
+        font-size: 0.8rem;
+        font-weight: bold;
+        width: 9vw;
+    }
+    
+}
+@media screen and (min-height: 1079px) and (min-aspect-ratio: 16/9) {
+    .product img{
+        width: 40vw;
+        height: 20vw;
+    }
+    .shopbtn{
+        height: 4vh;
+    }
+    .product h2{
+        font-size: 2rem;
+    }
+    .product p{
+        font-size: 1.3rem;
+    }
+    .heading p{
+        font-size: 1.7rem;
+       
+    }
+    .shopbtn{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (max-width:800px)  {
+    .product{
+        color: var(--clr1);
+        width: 90vw;
+    
+    }
+    
+    .product img{
+        width: 90vw;
+        height: 40vw;
+    }
+    .product h2{
+        font-size: 1rem;
+    }
+    .para{
+        margin-top: 1vh;
+        font-size: 0.6rem;
+    }
+    .price{
+        font-size: 0.8rem;
+       margin-top: 0;
+       display: block !important;
+    }
+    .shopbtn{
+        display: none !important;
+    }
+    .paraspan .shopbtn{
+    display: flex !important;
+        justify-content: center;
+        align-items: center;
+    font-size: 0.5rem;
+    width: 20vw;
+    height: 3vh;
+    }
+
+}

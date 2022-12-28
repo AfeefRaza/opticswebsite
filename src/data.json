@@ -1,0 +1,23 @@
+[
+    {
+      "name": "USD",
+      "symbol": "$",
+      "conversionRate": 1
+    },
+    {
+      "name": "EUR",
+      "symbol": "€",
+      "conversionRate": 1.01
+    },
+    {
+      "name": "Rupees",
+      "symbol": "Rs.",
+      "conversionRate": 219
+    },
+    {
+      "name": "lira",
+      "symbol": "₺",
+      "conversionRate": 18
+    }
+
+  ]

@@ -1,0 +1,21 @@
+.lensescon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3,25vw);
+    column-gap: 4vw;
+    row-gap: 4vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+
+}
+@media (max-width:800px)  {
+    .lensescon{
+        margin-top: 4vh;
+        grid-template-columns: repeat(2,40vw);
+        justify-content: space-around;
+    }
+}

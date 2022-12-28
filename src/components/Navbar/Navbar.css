@@ -1,0 +1,265 @@
+header{
+  font-family: 'Unbounded', cursive;
+  font-weight: 700;
+    margin: 2vw 1vw;
+    height: 6vh;
+    width: 85vw;
+    border-radius: 50rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 5%;
+    background-color: var( --clr3);
+    justify-content: space-between;
+    z-index: 5;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr1);
+    font-weight: 900;
+    font-size: 2vw;
+
+}
+.logo img{
+    width: 5vw;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 24vw;
+}
+nav ul li{
+  cursor: pointer;
+}
+nav ul li a{
+    color: var(--clr1);
+    display: block;
+    padding: 1px 10px;
+    border-radius: 1px;
+}
+/* .dark{
+  background-image:
+    linear-gradient(#000000,#000000),
+    linear-gradient(white,white)
+;
+  background-size:
+    calc(1 * (100% / 2)) 100%,
+    calc(2 * (100% / 2)) 100%,
+    calc(3 * (100% / 4)) 100%,
+    calc(4 * (100% / 4)) 100%
+    ;
+  background-repeat:no-repeat;
+  width: 1rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1vw;
+}
+.dark:hover{
+  box-shadow: 0 0 0 3px rgb(227, 224, 224); 
+}
+.light{
+  background-image:
+    linear-gradient(#f9e45b,#f9e45b),
+    linear-gradient(white,white)
+;
+  background-size:
+    calc(1 * (100% / 2)) 100%,
+    calc(2 * (100% / 2)) 100%,
+    calc(3 * (100% / 4)) 100%,
+    calc(4 * (100% / 4)) 100%
+    ;
+  background-repeat:no-repeat;
+  width: 1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.light:hover{
+  box-shadow: 0 0 0 3px rgb(227, 224, 224); 
+} */
+
+nav ul li a img{
+    height: 4vh;
+}
+nav ul li a:hover{
+    color: var(--clr3);
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    /* z-index: 100; */
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 1rem;  
+    border: none;
+    outline: none;
+    color: var(--clr1);
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    z-index: 100;
+  }
+.dropbtn{
+    display: flex;
+    align-items: center;
+}
+.dropbtn:hover{
+  color: var(--clr2);
+}
+.dropbtn img{
+    width: 1.3vw;}
+  /* .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+    
+  } */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--clr3);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    width: 11vw;
+
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: var(--clr1);
+    padding: 12px ;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: var(--clr2);
+
+  }
+  .cart{
+    width: 100%;
+    position: fixed;
+    z-index: 7;
+    float: right;
+
+    /* margin-left: 52vw; */
+
+}
+.bag{
+  height: 3vh;
+  width: 3vw;
+ }
+ .mode{
+  font-size: 0.8rem;
+  text-align: center;
+ }
+ .mode:hover{
+  color: var(--clr2);
+ }
+ .bag:hover{
+  color: var(--clr2);
+ }
+ .modeicon{
+  width: 3vw;
+ height: 3vh;
+}
+ .modeicon:hover{
+  color: var(--clr2);
+}
+
+@media screen and (min-height: 650px) and (min-aspect-ratio: 16/9) {
+  header{
+    height: 10vh;
+  }
+  .dark{
+    width: 2rem;
+    height: 3rem;
+  }
+  .light{
+    width: 2rem;
+    height: 3rem;
+  }
+  .dropdown .dropbtn {
+    font-size: 1.5rem;
+    
+  }
+  .dropbtn img{
+    width: 2vw;}
+  .dropicon{
+    font-size: 50px;
+  }
+}
+@media screen and (min-height: 1079px) and (min-aspect-ratio: 16/9) {
+  header{
+    height: 10vh;
+  }
+  .dark{
+    width: 5vh;
+    height: 5vh;
+  }
+  .light{
+    width: 2vw;
+    height: 6vh;
+  }
+  .dropdown .dropbtn {
+    font-size: 2rem;
+    
+  }
+  .dropbtn img{
+    width: 2vw;}
+  .dropicon{
+    font-size: 50px;
+  }
+  .bag{
+   width: 5vw;
+   height: 5vh;
+  }
+  .modeicon{
+    width: 4vw;
+   height: 4vh;
+  }
+}
+@media (max-width:800px)  {
+  .logo{
+    font-size: 1rem;
+  }
+  .logo img{
+    width: 10vw;
+}
+nav{
+  width: 45vw;
+}
+nav ul{
+  width: 45vw;
+}
+.dark{
+  width: 0.5rem;
+  height: 1.5rem;
+}
+.light{
+  width: 0.5rem;
+  height: 1.5rem;
+}
+.dropdown .dropbtn{
+  font-size: 0.5rem;
+}
+}

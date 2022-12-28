@@ -1,0 +1,15 @@
+.container{
+    margin: 2vh 0;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: repeat(2,40vw);
+    column-gap: 8vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width:800px)  {
+    .container{
+        grid-template-columns: repeat(1,90vw);
+    }
+}
