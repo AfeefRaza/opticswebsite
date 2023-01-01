@@ -123,8 +123,11 @@ nav ul li a:hover{
 .dropbtn:hover{
   color: var(--clr2);
 }
-.dropbtn img{
-    width: 1.3vw;}
+.droparr{
+  width: 3vw;
+  height: 3vh;
+
+}
   /* .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
     background-color: red;
     
@@ -156,7 +159,7 @@ nav ul li a:hover{
 
   }
   .cart{
-    width: 100%;
+  
     position: fixed;
     z-index: 7;
     float: right;
@@ -245,10 +248,16 @@ nav ul li a:hover{
   .logo img{
     width: 10vw;
 }
+header{
+  padding: 0 2vw;
+width: 90vw;
+}
 nav{
+  
   width: 45vw;
 }
 nav ul{
+  
   width: 45vw;
 }
 .dark{
@@ -261,5 +270,35 @@ nav ul{
 }
 .dropdown .dropbtn{
   font-size: 0.5rem;
+}
+.modeicon{
+  width: 5vw;
+ height: 3vh;
+}
+.bag{
+  height: 5vh;
+  width: 5vw;
+ }
+ .droparr{
+  width: 3vw;
+  height: 3vh;
+
+}
+ .mode{
+  font-size: 0.5rem;
+  padding: 0;
+  width: 7vw;
+ 
+ }
+ .dropdown-content {
+  width: 16vw;
+border-radius: 0.3rem;
+margin-left: -2vw;
+}
+
+.dropdown-content a {
+  padding-left: 2px;
+  text-align: center;
+font-size: 0.4rem;
 }
 }

@@ -92,7 +92,7 @@ const Navbar = (props) => {
             <li><a href={() => false} onClick={() => cartMenu()} ><BsFillBagFill className="bag" /> </a></li>
             <div ref={menuRef} className="dropdown">
               <li><button className="dropbtn" onClick={() => Dropdown()}  >{currency.name}
-                <RiArrowDropDownLine size={'2rem'}   />
+                <RiArrowDropDownLine className="droparr"   />
               </button></li>
               <div className="dropdown-content" id="myDropdown" style={{ display: listopen === false ? 'none' : 'block' }}>
                 {currencies.map((curr) => (

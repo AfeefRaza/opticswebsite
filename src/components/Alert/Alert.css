@@ -15,3 +15,9 @@
     opacity: 0.7;
 
 }
+@media (max-width:800px)  {
+    .Alert{
+        width: 90vw;
+        font-size: 1rem;
+    }
+}

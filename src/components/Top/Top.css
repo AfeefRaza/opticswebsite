@@ -77,5 +77,11 @@ li{
     .downarrow{
         bottom: 5vh;
      }
+     .Text h1{
+        font-size: 3rem;
+    }
+    .Text p{
+        font-size: 1rem;
+    }
 }
 
