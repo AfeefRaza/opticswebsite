@@ -59,7 +59,10 @@ li{
     color: white;
    
 }
-
+.topdownarr{
+    width: 5rem;
+    height: 5rem;
+}
 .downarrow img{
     transition: 1s linear;
     /* z-index: 100; */
@@ -70,6 +73,13 @@ li{
     }
     .Text p{
         font-size: 3rem;
+    }
+    .topdownarr{
+        width: 10vw;
+        height: 10vw;
+    }
+    .topdownarr:hover{
+        color: var(--clr2);
     }
     
 }

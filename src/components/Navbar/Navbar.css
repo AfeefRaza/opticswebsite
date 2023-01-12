@@ -161,6 +161,7 @@ nav ul li a:hover{
   .cart{
   
     position: fixed;
+    width: 100vw;
     z-index: 7;
     float: right;
 
@@ -215,6 +216,9 @@ nav ul li a:hover{
   header{
     height: 10vh;
   }
+  nav ul{
+    width: 28vw;
+  }
   .dark{
     width: 5vh;
     height: 5vh;
@@ -227,6 +231,12 @@ nav ul li a:hover{
     font-size: 2rem;
     
   }
+  
+  .dropdown-content {
+    width: 9vw;
+    font-size: 1.5vw;
+  }
+  
   .dropbtn img{
     width: 2vw;}
   .dropicon{
@@ -236,9 +246,16 @@ nav ul li a:hover{
    width: 5vw;
    height: 5vh;
   }
+  .mode{
+    font-size: 1vw;
+  }
   .modeicon{
     width: 4vw;
    height: 4vh;
+  }
+  .droparr{
+    width: 3vw;
+    height: 5vh;
   }
 }
 @media (max-width:800px)  {

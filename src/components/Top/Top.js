@@ -20,7 +20,7 @@ const Top = (props) => {
           </div>
           <div className="downarrow">
             <Link to="Main" smooth={true} duration={1000}>
-              <MdOutlineArrowDropDown size={'5rem'}/>
+              <MdOutlineArrowDropDown className="topdownarr"/>
               </Link>
           </div>
         </div>

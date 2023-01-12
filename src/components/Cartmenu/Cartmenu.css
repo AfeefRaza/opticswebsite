@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 .cartmenu{
-    width: 100vw;
+    width: 25vw;
     height: 100vh;
     border: 1px solid black;
     overflow: hidden;
@@ -10,11 +11,12 @@
     
 }
 .topheading{
-    
+    width: 25vw;
     background-color: var(--clr3);
     height: 7vh;
     display: flex;
     align-items: center;
+    
    
 }
 .topheading a{
@@ -25,8 +27,9 @@
 
 }
 .topheading h3{
-    font-size: 1.5vw;
-    font-weight: 600;
+    font-size: 1.4vw;
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
     letter-spacing: 2px;
     text-align: center;
     margin: 0;
@@ -42,6 +45,7 @@ flex-direction: column;
 align-items: center;
 }
 .mid{
+    width: 25vw;
     position: relative;
     background-color: var(--clr2);
     display: flex;
@@ -51,12 +55,14 @@ align-items: center;
 }
 .mid h3{
     color: var(--clr1);
-    font-weight: 350;
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 .para{
     display: flex;
-
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
     font-size: 0.8rem;
 }
 .para a{
@@ -100,10 +106,13 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     float: inline-end;
     height: 30vh;
     background-color: var(--clr3);
     width: 25vw;
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
 }
 
 .total{
@@ -129,7 +138,7 @@ align-items: center;
     align-items: center;
     font-weight: 700;
     letter-spacing: 2px;
-    color: var(--  clr2);
+    color: var(--clr2);
     width: 90%;
 }
 .code{
@@ -276,6 +285,16 @@ align-items: center;
         color: var(--clr2);
         background-color: var(--clr1);
         cursor: pointer;
+    }
+    .bottomheading{
+        height: 31vh;
+    }
+    .total h4{
+        font-size: 1.2vw;
+        letter-spacing: 3px;
+    }
+    .chckbtn{
+        font-size: 1.5vw;
     }
 }
 @media screen and (min-height: 650px) and (min-aspect-ratio: 16/9) {
